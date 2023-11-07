@@ -1,0 +1,62 @@
+
+body {
+    background-image: linear-gradient(to bottom, #a7a092, #ddd8cd); /* Sunny day inspo */
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-attachment: fixed;
+    background-color: #FFFFFF; /* Fallback background color */
+    
+    /* more sensory-themed?  */
+    }
+    
+    /* Styles the game board container */
+    #gameBoard {
+     width: 80%;
+   margin: 0 auto;
+  text-align: center;
+   background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for the game board */
+    border-radius: 10px;
+   padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* shadow */
+    }
+    
+    /* Styles the game cards*/
+    .card {
+    width: 100px;
+    height: 100px;
+    background-color: #f781dac7; 
+    margin: 10px;
+     display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+     border: 2px solid #230114; 
+    border-radius: 10px; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.2s ease-in-out; /* Add a subtle card flip animation */
+    }
+    
+    .card.flipped {
+   background-color: #FFF; 
+   transform: rotateY(180deg); 
+    }
+    
+    /* Style the buttons */
+    button {
+   font-size: 20px;
+    margin: 10px;
+   padding: 10px 20px;
+   background-color: #bfcbcd
+   color: #474242;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2); /* Slight shadow */
+    }
+    
+    /* Style button hover effect */
+    button:hover {
+   background-color: #eac0b5; /* Slightly darker red on hover */
+    }
+    
+    /* Add additional CSS rules to style other elements as needed */
+    
